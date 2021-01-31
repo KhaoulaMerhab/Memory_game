@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/**container*/
+.container{
+    width:85%;
+    margin: auto;
+    text-align: center;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+}
+.container h1{
+    font-size:3em;
+    color:#393950;
+    letter-spacing:4px;
+    line-height:1.5em;
+}
+.container span{
+    font-size:3em;
+    color:#393950;
+    letter-spacing:4px;
+    margin: 3em 0;
+    line-height:1.5em;
+    font-weight:600;
+}
+img{
+    height: 100px;
+    width:100px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin:3px ;
+    cursor: pointer;
+}
+.grid{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    width:400px;
+    margin: auto;
+    
+}
